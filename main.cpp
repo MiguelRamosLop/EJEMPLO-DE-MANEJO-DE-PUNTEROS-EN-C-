@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-  cout << "Punteros\n\n";
+  cout << "                   PUNTEROS \n\n";
   string soy_var = "Me llamo soy_var y soy de tipo string";
 
   cout << "CONTENIDO de la variable string:          < soy_var > ----> "<<soy_var<<endl;
@@ -20,9 +20,10 @@ int main() {
   cout << "\n\nCONTENIDO de la variable puntero a string: < puntero_tipo_string > ----> "<<*puntero_tipo_string<<endl;
   cout << "DIRECCION de la variable puntero a string: < puntero_tipo_string > ----> "<<&puntero_tipo_string<<endl;
 
-  string **puntero_tipo_string = &puntero_tipo_string;
-  cout << "\n\nCONTENIDO de la variable puntero a string: < puntero_tipo_string > ----> "<<*puntero_tipo_string<<endl;
-  cout << "DIRECCION de la variable puntero a string: < puntero_tipo_string > ----> "<<&puntero_tipo_string<<endl;
+  string **puntero_tipo_string1=&puntero_tipo_string;
+  cout << "\n\nCONTENIDO de la variable puntero a string: < puntero_tipo_string1 > ----> "<<**puntero_tipo_string1<<endl;
+  cout << "CONTENIDO / DIREDIRECCIÓN de la variable puntero a string: < puntero_tipo_string1 > ----> "<<*puntero_tipo_string1<<endl;
+  cout << "DIRECCION de la variable puntero a string: < puntero_tipo_string1 > ----> "<<&puntero_tipo_string1<<endl;
 
 
 
