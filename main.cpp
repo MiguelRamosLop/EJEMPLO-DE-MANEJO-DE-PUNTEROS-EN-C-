@@ -20,6 +20,13 @@ int main() {
   cout << "\n\nCONTENIDO de la variable puntero a string: < puntero_tipo_string > ----> "<<*puntero_tipo_string<<endl;
   cout << "DIRECCION de la variable puntero a string: < puntero_tipo_string > ----> "<<&puntero_tipo_string<<endl;
 
+  string **puntero_tipo_string = &puntero_tipo_string;
+  cout << "\n\nCONTENIDO de la variable puntero a string: < puntero_tipo_string > ----> "<<*puntero_tipo_string<<endl;
+  cout << "DIRECCION de la variable puntero a string: < puntero_tipo_string > ----> "<<&puntero_tipo_string<<endl;
+
+
+
+
 
 
 
